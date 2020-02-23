@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Paul's Pizza Pallace</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Pizza</th>
+            <th>Family Size</th>
+            <th>Regular Size</th>
+            <th>Small Size</th>
+        </tr>
+        <tr>
+            <td>All Cheeze Pizza</td>
+            <td>$10.00</td>
+            <td>$8.00</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Meat Lovers Pizza</td>
+            <td>$15.00</td>
+            <td>$10.00</td>
+            <td>$8.00</td>
+        </tr>
+        <tr>
+            <td>Hawaian Pizza</td>
+            <td>$13.00</td>
+            <td>$10.00</td>
+            <td>$7.00</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form action="order">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address">
+
+        <br>
+        <br>
+        <label for="pizza">Choose your pizza:</label>
+        <select id="pizza" name="pizza">
+            <option value="Hawaian">Hawaian</option>
+            <option value="Meat lovers">Meat Lovers</option>
+            <option value="All Cheese">All Cheese</option>
+        </select>
+        <br>
+        <label for="size">Choose the size of your pizza:</label>
+        <select id="size" name="size">
+            <option value="Small">Small</option>
+            <option value="Regular">Regular</option>
+            <option value="Family">Family</option>
+        </select>
+        <br>
+        
+        <input type="submit"/>
+
+
+
+    </form>
+
+</body>
+
+</html>
